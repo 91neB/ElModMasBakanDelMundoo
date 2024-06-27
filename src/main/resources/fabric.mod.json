@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "elmodmasbakandelmundo",
+	"version": "${version}",
+	"name": "ElModMasBakanDelMundo",
+	"description": "Es El Mod Más Bakan Del Mundo!",
+	"authors": [
+		"Ben19 y 91neB"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/elmodmasbakandelmundo/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ben19.emmbdm.ElModMasBakanDelMundo"
+		],
+		"client": [
+			"net.ben19.emmbdm.ElModMasBakanDelMundoClient"
+		],
+		"fabric-datagen": [
+			"net.ben19.emmbdm.ElModMasBakanDelMundoDataGenerator"
+		]
+	},
+	"mixins": [
+		"elmodmasbakandelmundo.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

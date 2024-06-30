@@ -1,5 +1,6 @@
 package net.ben19.emmbdm;
 
+import net.ben19.emmbdm.block.ModBlocks;
 import net.ben19.emmbdm.item.ModItemGroups;
 import net.ben19.emmbdm.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -17,6 +18,7 @@ public class ElModMasBakanDelMundo implements ModInitializer {
 		ModItems.registerModItems();
 		LOGGER.info("Hello Fabric world!");
 		ModItemGroups.RegisterItemGroups();
+		ModBlocks.RegisterModBlocks();
 
 	}
 }

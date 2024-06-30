@@ -1,6 +1,9 @@
 {
   "item.ben19_emmbdm.enchantedcobblestone": "Enchanted Cobblestone",
   "item.ben19_emmbdm.enchanteddiamond": "Enchanted Diamond",
+  "item.ben19_emmbdm.diamondspreading": "Diamond Spreading",
+
+  "block.ben19_emmbdm.mithrilpure": "Pure Mithril Ore",
 
   "itemgroup.enchanted": "Enchanted Items Group"
 }

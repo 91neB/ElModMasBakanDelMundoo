@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ben19_emmbdm:block/mithrilpure"
+  }
+}

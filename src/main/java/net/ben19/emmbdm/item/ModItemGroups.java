@@ -1,6 +1,7 @@
 package net.ben19.emmbdm.item;
 
 import net.ben19.emmbdm.ElModMasBakanDelMundo;
+import net.ben19.emmbdm.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,6 +18,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.ENCHANTED_COBBLE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ENCHANTED_COBBLE);
                         entries.add(ModItems.ENCHANTED_DIAMOND);
+                        entries.add(ModBlocks.MITHRIL_ORE_PURE);
+                        entries.add(ModItems.DIAMOND_SPREADING);
 
                     }).build());
 

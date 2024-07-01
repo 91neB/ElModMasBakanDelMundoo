@@ -15,12 +15,14 @@ public class ModItems {
     public static final Item ENCHANTED_COBBLE = registerItem("enchantedcobblestone", new Item(new FabricItemSettings()));
     public static final Item ENCHANTED_DIAMOND = registerItem("enchanteddiamond", new Item(new FabricItemSettings()));
     public static final Item DIAMOND_SPREADING = registerItem("diamondspreading", new Item(new FabricItemSettings()));
+    public static final Item MITHRIL = registerItem("mithril", new Item(new FabricItemSettings()));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
 
         entries.add(ENCHANTED_COBBLE);
         entries.add(ENCHANTED_DIAMOND);
-        entries.add(DIAMOND_SPREADING);
+        entries.add(MITHRIL);
 
     }
 

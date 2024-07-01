@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block MITHRIL_ORE_PURE = registerBlock("mithrilpure",
-            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COAL_ORE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COAL_ORE).strength(9.0F, 9.0F)));
 
     private static Block registerBlock(String name, Block block){
 

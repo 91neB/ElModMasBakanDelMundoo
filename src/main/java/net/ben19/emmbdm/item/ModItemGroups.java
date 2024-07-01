@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ENCHANTED_DIAMOND);
                         entries.add(ModBlocks.MITHRIL_ORE_PURE);
                         entries.add(ModItems.DIAMOND_SPREADING);
+                        entries.add(ModItems.MITHRIL);
 
                     }).build());
 

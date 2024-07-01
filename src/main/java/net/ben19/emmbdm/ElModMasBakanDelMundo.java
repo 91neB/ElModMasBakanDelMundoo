@@ -16,7 +16,6 @@ public class ElModMasBakanDelMundo implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
-		LOGGER.info("Hello Fabric world!");
 		ModItemGroups.RegisterItemGroups();
 		ModBlocks.RegisterModBlocks();
 
